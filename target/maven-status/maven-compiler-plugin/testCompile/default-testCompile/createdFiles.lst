@@ -1,9 +1,0 @@
-common\testData\dataProvider\NtpServerDataProvider.class
-configs\BrowserConfiguration.class
-configs\EnvConfiguration.class
-common\testData\HttpRequests.class
-pages\base\BaseApi.class
-dto\apiDto\IpAddressInfoDTO$IpAddressInfoDTOBuilder.class
-dto\apiDto\IpAddressInfoDTO.class
-tests\apiTests\NtpServerTest.class
-common\Endpoints.class
