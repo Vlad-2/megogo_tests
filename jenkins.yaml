@@ -1,0 +1,37 @@
+jenkins:
+  systemMessage: "Jenkins configured for Java 17 Automation"
+  numExecutors: 2
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: "admin"
+          password: "admin"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousReadAccess: false
+  tools:
+    jdk:
+      installations:
+        - name: "Java 17"
+          home: "/usr/lib/jvm/java-17-openjdk-amd64"
+    maven:
+      installations:
+        - name: "Maven Default"
+          home: "/usr/share/maven"
+  plugins:
+    required:
+      - "workflow-aggregator"
+      - "git"
+      - "docker-workflow"
+      - "blueocean"
+      - "maven-plugin"
+      - "pipeline-utility-steps"
+      - "junit"
+      - "testng-plugin"
+      - "allure-jenkins-plugin"
+      - "selenium"
+      - "publish-over-ssh"
+      - "htmlpublisher"
+      - "jdk-tool"
+      - "config-file-provider"

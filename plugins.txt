@@ -1,0 +1,17 @@
+workflow-aggregator:latest
+git:latest
+docker-workflow:latest
+blueocean:latest
+maven-plugin:latest
+pipeline-utility-steps:latest
+junit:latest
+testng-plugin:latest
+allure-jenkins-plugin:latest
+selenium:latest
+publish-over-ssh:latest
+htmlpublisher:latest
+jdk-tool:latest
+config-file-provider:latest
+
+
+
